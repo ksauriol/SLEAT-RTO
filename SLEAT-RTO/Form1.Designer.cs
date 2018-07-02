@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.testLbl = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.ercotRadioBtn = new System.Windows.Forms.RadioButton();
             this.pjmRadioBtn = new System.Windows.Forms.RadioButton();
@@ -37,7 +38,6 @@
             this.equipmentRadioBtn = new System.Windows.Forms.RadioButton();
             this.stationRadioBtn = new System.Windows.Forms.RadioButton();
             this.lineRadioBtn = new System.Windows.Forms.RadioButton();
-            this.testLbl = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -59,6 +59,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1248, 140);
             this.panel1.TabIndex = 0;
+            // 
+            // testLbl
+            // 
+            this.testLbl.AutoSize = true;
+            this.testLbl.Location = new System.Drawing.Point(402, 14);
+            this.testLbl.Name = "testLbl";
+            this.testLbl.Size = new System.Drawing.Size(82, 17);
+            this.testLbl.TabIndex = 1;
+            this.testLbl.Text = "TestCommit";
             // 
             // groupBox2
             // 
@@ -149,15 +158,6 @@
             this.lineRadioBtn.TabStop = true;
             this.lineRadioBtn.Text = "Line";
             this.lineRadioBtn.UseVisualStyleBackColor = true;
-            // 
-            // testLbl
-            // 
-            this.testLbl.AutoSize = true;
-            this.testLbl.Location = new System.Drawing.Point(402, 14);
-            this.testLbl.Name = "testLbl";
-            this.testLbl.Size = new System.Drawing.Size(36, 17);
-            this.testLbl.TabIndex = 1;
-            this.testLbl.Text = "Test";
             // 
             // dataGridView1
             // 
