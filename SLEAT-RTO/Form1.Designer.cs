@@ -65,9 +65,10 @@
             this.testLbl.AutoSize = true;
             this.testLbl.Location = new System.Drawing.Point(402, 14);
             this.testLbl.Name = "testLbl";
-            this.testLbl.Size = new System.Drawing.Size(82, 17);
+            this.testLbl.Size = new System.Drawing.Size(90, 17);
             this.testLbl.TabIndex = 1;
-            this.testLbl.Text = "TestCommit";
+            this.testLbl.Text = "TestCommit2";
+            this.testLbl.Click += new System.EventHandler(this.testLbl_Click);
             // 
             // groupBox2
             // 

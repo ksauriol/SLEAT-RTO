@@ -45,5 +45,10 @@ namespace SLEAT_RTO
             if (sppRadioBtn.Checked == true && stationRadioBtn.Checked == true)
                 testLbl.Text = "SPP Station";
         }
+
+        private void testLbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
